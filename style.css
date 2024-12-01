@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html , body{
+    height: 100vh;
+    background-color: crimson;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 400px;
+    background-color: #ffffff;
+    padding: 2em;
+    border-radius: 60px 5px;
+    border: 3px solid yellow;
+}
+
+input{
+    width: 100%;
+    padding: 10px;
+    display: block;
+    margin-top: 30px;
+}
+
+.todos{
+    margin-top: 2em;
+}
+
+.todo{
+    border-left: 4px solid #ec5766;
+    padding: 5px;
+    color: rgb(75, 75, 75);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.2em;
+    margin-bottom: 1em;
+}
+.delete{
+    color: #d91e36;
+    cursor: [pointer];
+}
